@@ -41,8 +41,6 @@ body {
 
 .live2d {
     position: fixed;
-    width:300px;
-    height:800px;
     right: 0px;
     bottom: 0px;
 }
