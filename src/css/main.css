@@ -38,3 +38,11 @@ body {
     font-size: 24px;
     color: black;
 }
+
+.live2d {
+    position: fixed;
+    width: 300px;
+    height: 800px;
+    right: 300px;
+    top: 300px;
+}

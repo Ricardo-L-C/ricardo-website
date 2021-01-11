@@ -6,7 +6,6 @@
     <link href="./static/img/icon.png" rel="icon">
     <title>Ricardo's Playground</title>
     <link href="./src/css/main.css" rel="stylesheet" type="text/css" >
-    <script src="./src/js/changeColor.js"></script>
 </head>
 
 <body>
@@ -15,6 +14,13 @@
         <p>Welcome to Ricardo's Playground</p>
         <p>何もないたけど</p>
     </div>
+
+    <canvas class="live2d" id="live2d"></canvas>
+
+    <script type="module" src="./src/js/changeColor.js"></script>
+    <script src="./src/js/live2d.js"></script>
+    <script type="module" src="./src/js/loadLive2d.js"></script>
+    <script type="module" src="./src/js/main.js"></script>
 </body>
 
 </html>
