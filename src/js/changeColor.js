@@ -1,5 +1,3 @@
-
-
 export default function changeColor() {
     const colors = [
         [62, 35, 255],
